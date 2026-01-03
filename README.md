@@ -38,7 +38,7 @@ une architecture modulaire inspirée des systèmes industriels.
 
 ## 🧩 System Architecture
 
-![System architecture of the presence detector](architecture.png)
+![System architecture of the presence detector](Architecture.png)
 
 ---
 
