@@ -36,6 +36,10 @@ une architecture modulaire inspirée des systèmes industriels.
 - LED d’indication
 - Sortie logique vers système externe
 
+## 🧩 System Architecture
+
+![System architecture of the presence detector](architecture.png)
+
 ---
 
 ## 🛠️ Outils utilisés
