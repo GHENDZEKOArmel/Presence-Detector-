@@ -29,7 +29,7 @@ following a modular architecture inspired by industrial detection systems.
 
 ![System architecture of the presence detector](Architecture.png)
 
-![System architecture of the presence detector](schematic.png)
+![System architecture of the presence detector](Schematic.png)
 
 ![System architecture of the presence detector](pcb2D.png)
 
