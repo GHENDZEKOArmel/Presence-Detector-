@@ -28,3 +28,8 @@ following a modular architecture inspired by industrial detection systems.
 ### Functional blocks
 
 ![System architecture of the presence detector](Architecture.png)
+
+
+
+![System architecture of the presence detector](pcb2D.png)
+
