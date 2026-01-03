@@ -23,20 +23,8 @@ following a modular architecture inspired by industrial detection systems.
 7. A **comparator** compares the signal with an adjustable threshold.
 8. A **logic output** indicates the detected presence.
 
----
-
-##  System Architecture
-
 
 
 ### Functional blocks
-- Infrared emitter (IR LED)
-- Infrared receiver (SFH203FA photodiode)
-- Current-to-voltage converter (TIA)
-- Band-pass filter (~10 kHz)
-- Non-inverting amplifier
-- Peak detector
-- Comparator with adjustable threshold
-- Status indicator LED
-- Logic output to external system
+
 ![System architecture of the presence detector](Architecture.png)
