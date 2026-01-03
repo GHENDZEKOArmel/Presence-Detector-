@@ -27,7 +27,7 @@ following a modular architecture inspired by industrial detection systems.
 
 ##  System Architecture
 
-![System architecture of the presence detector](Architecture.png)
+
 
 ### Functional blocks
 - Infrared emitter (IR LED)
@@ -39,4 +39,4 @@ following a modular architecture inspired by industrial detection systems.
 - Comparator with adjustable threshold
 - Status indicator LED
 - Logic output to external system
-
+![System architecture of the presence detector](Architecture.png)
