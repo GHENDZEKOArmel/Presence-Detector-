@@ -27,7 +27,7 @@ following a modular architecture inspired by industrial detection systems.
 
 ## 🧩 System Architecture
 
-![System architecture of the presence detector](docs/images/architecture.png)
+![System architecture of the presence detector](Architecture.png)
 
 ### Functional blocks
 - Infrared emitter (IR LED)
@@ -40,36 +40,3 @@ following a modular architecture inspired by industrial detection systems.
 - Status indicator LED
 - Logic output to external system
 
----
-
-## 🛠️ Tools Used
-
-- **KiCad** (schematic and PCB design)
-- Git & GitHub
-
----
-
-## 📂 Repository Structure
-
-```text
-presence-detector/
-├── README.md
-├── .gitignore
-├── hardware/
-│   ├── kicad/
-│   │   ├── presence_detector.kicad_pro
-│   │   ├── presence_detector.kicad_sch
-│   │   ├── presence_detector.kicad_pcb
-│   │   ├── symbols/
-│   │   ├── footprints/
-│   │   └── 3dmodels/
-│   └── exports/
-│       ├── schematics.pdf
-│       ├── pcb_2d.png
-│       ├── pcb_3d.png
-│       └── gerbers/
-└── docs/
-    ├── images/
-    │   └── architecture.png
-    ├── description.pdf
-    └── datasheets/
