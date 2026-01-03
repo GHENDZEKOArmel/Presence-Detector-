@@ -1,53 +1,75 @@
-# Détecteur de présence infrarouge – Conception électronique (KiCad)
+# Infrared Presence Detector – Electronic Design (KiCad)
 
 ## 📌 Description
-Ce projet consiste en la conception d’un **détecteur de présence infrarouge actif** basé sur une
-chaîne de traitement **entièrement analogique**.  
-Le système émet un signal infrarouge modulé, détecte la réflexion sur un obstacle (présence humaine),
-puis traite le signal afin de produire une **sortie logique exploitable**.
+This project focuses on the design of an **active infrared presence detector** based on a
+**fully analog signal processing chain**.
 
-Le projet a été conçu et simulé sous **KiCad** dans un objectif **académique et pédagogique**, avec
-une architecture modulaire inspirée des systèmes industriels.
+The system emits a modulated infrared signal, detects the reflection caused by a nearby object
+(human presence), and processes the received signal in order to generate a **usable logic output**.
 
----
-
-## ⚙️ Principe de fonctionnement
-
-1. Une **diode infrarouge émettrice** génère un signal IR modulé.
-2. La **diode infrarouge réceptrice** capte le signal réfléchi.
-3. Le courant reçu est converti en tension (TIA).
-4. Un **filtre passe-bande** rejette le bruit ambiant.
-5. Le signal est **amplifié**.
-6. Un **détecteur de crête** extrait l’enveloppe.
-7. Un **comparateur** compare le signal à un seuil réglable.
-8. Une **sortie logique** indique la présence détectée.
+The project was designed and simulated using **KiCad**, with an **academic and educational purpose**,
+following a modular architecture inspired by industrial detection systems.
 
 ---
 
-## 🧩 Architecture du système
+## ⚙️ Operating Principle
 
-- Émetteur infrarouge (LED IR)
-- Récepteur infrarouge (photodiode SFH203FA)
-- Convertisseur courant/tension
-- Filtre passe-bande (≈ 10 kHz)
-- Amplificateur non-inverseur
-- Détecteur de crête
-- Comparateur avec seuil ajustable
-- LED d’indication
-- Sortie logique vers système externe
+1. An **infrared emitting diode (IR LED)** generates a modulated IR signal.
+2. A **photodiode receiver** detects the reflected infrared signal.
+3. The received current is converted into a voltage (TIA).
+4. A **band-pass filter** rejects ambient noise.
+5. The signal is **amplified**.
+6. A **peak detector** extracts the signal envelope.
+7. A **comparator** compares the signal with an adjustable threshold.
+8. A **logic output** indicates the detected presence.
+
+---
 
 ## 🧩 System Architecture
 
-![System architecture of the presence detector](Architecture.png)
+![System architecture of the presence detector](docs/images/architecture.png)
+
+### Functional blocks
+- Infrared emitter (IR LED)
+- Infrared receiver (SFH203FA photodiode)
+- Current-to-voltage converter (TIA)
+- Band-pass filter (~10 kHz)
+- Non-inverting amplifier
+- Peak detector
+- Comparator with adjustable threshold
+- Status indicator LED
+- Logic output to external system
 
 ---
 
-## 🛠️ Outils utilisés
+## 🛠️ Tools Used
 
-- **KiCad** (schéma & PCB)
+- **KiCad** (schematic and PCB design)
 - Git & GitHub
 
 ---
 
-## 📂 Structure du dépôt
+## 📂 Repository Structure
 
+```text
+presence-detector/
+├── README.md
+├── .gitignore
+├── hardware/
+│   ├── kicad/
+│   │   ├── presence_detector.kicad_pro
+│   │   ├── presence_detector.kicad_sch
+│   │   ├── presence_detector.kicad_pcb
+│   │   ├── symbols/
+│   │   ├── footprints/
+│   │   └── 3dmodels/
+│   └── exports/
+│       ├── schematics.pdf
+│       ├── pcb_2d.png
+│       ├── pcb_3d.png
+│       └── gerbers/
+└── docs/
+    ├── images/
+    │   └── architecture.png
+    ├── description.pdf
+    └── datasheets/
