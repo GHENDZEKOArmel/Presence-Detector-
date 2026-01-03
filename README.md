@@ -32,4 +32,4 @@ following a modular architecture inspired by industrial detection systems.
 ![System architecture of the presence detector](Schematic.png)
 
 ![System architecture of the presence detector](pcb2D.png)
-
+![System architecture of the presence detector](pcb3D.png)
