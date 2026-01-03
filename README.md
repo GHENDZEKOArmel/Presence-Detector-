@@ -1,6 +1,6 @@
 # Infrared Presence Detector – Electronic Design (KiCad)
 
-## 📌 Description
+##  Description
 This project focuses on the design of an **active infrared presence detector** based on a
 **fully analog signal processing chain**.
 
@@ -12,7 +12,7 @@ following a modular architecture inspired by industrial detection systems.
 
 ---
 
-## ⚙️ Operating Principle
+##  Operating Principle
 
 1. An **infrared emitting diode (IR LED)** generates a modulated IR signal.
 2. A **photodiode receiver** detects the reflected infrared signal.
@@ -25,7 +25,7 @@ following a modular architecture inspired by industrial detection systems.
 
 ---
 
-## 🧩 System Architecture
+##  System Architecture
 
 ![System architecture of the presence detector](Architecture.png)
 
